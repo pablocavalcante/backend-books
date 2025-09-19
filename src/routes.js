@@ -3,8 +3,8 @@ import { getAllLivros, insertLivro, updateLivro, getOneLivro, deleteLivro } from
 
 const router = Router();
 
-router.get('/', (req,res) => {
-    res.send("AAAAABBAAAAA");
+router.get('/', (_,res) => {
+    res.send("API Rodando com sucesso ! ");
 })
 
 router.get('/livros', getAllLivros)
